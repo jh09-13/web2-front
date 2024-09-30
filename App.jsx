@@ -7,6 +7,7 @@ import Experiment1 from './experiments/Experiments1';  // 실험실 1 import
 import Experiment2 from './experiments/Experiments2';  // 실험실 2 import
 import Experiment3 from './experiments/Experiments3';  // 실험실 3 import
 
+
 const Stack = createStackNavigator();
 
 // 실험실 선택 화면

@@ -1,3 +1,7 @@
+import { NAVER_MAP_API_KEY } from '@env';
+
+
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -15,7 +19,7 @@
     <div id="map"></div>
     <script>
         const script = document.createElement("script");
-        script.src = "https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=ihsg50uuii"; // 'myId'를 본인의 클라이언트 ID로 변경
+        script.src = "https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${apiKey}"; // 'myId'를 본인의 클라이언트 ID로 변경
         script.async = true;
         script.defer = true;
         document.head.appendChild(script);
